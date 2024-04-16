@@ -1,0 +1,139 @@
+/*
+Theme Name: Education Shop
+Template: bizberg
+Text Domain: education-shop
+Author: Bizberg Themes
+Author URI: https://bizbergthemes.com/   
+Theme URI: https://bizbergthemes.com/downloads/education-shop/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Education Shop is the child theme of Bizberg WordPress Theme. The theme is a clean & modern Education WordPress Theme. Education Shop is suitable for any tuition, marketing, bookselling, university, workshop, college, school, course hub, ecommerce, woocommerce, store, shop, training center, blogging, or educational institution. Also, the Education Shop theme is a perfect solution for your educational websites. This Free WordPress theme is fully responsive, cross-browser compatible, translation ready & SEO friendly. If you run into any problems while using our theme, you can refer to extensive documentation or contact our friendly support team. It fully supports Elementor, and all the sections are made from Elementor. Education Shop is a free WordPress eLearning or LMS theme. This theme is fully compatible with LearnPress – WordPress LMS Plugin.
+Tags: custom-logo,custom-menu,featured-images,threaded-comments,translation-ready,left-sidebar,right-sidebar,grid-layout,theme-options,blog,news,portfolio
+Version: 0.3
+Requires PHP: 5.6
+Tested up to: 6.0
+*/
+
+.home .bizberg_default_page .two-tone-layout .entry-content header.entry-header {
+    margin-top: 0 !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    letter-spacing: 0;
+}
+
+.blog-lists.blog-nosidebar-1 .blog-listing.no-sidebars .blog-post.blog-large .entry-header {
+    margin-top: 0 !important;
+}
+
+.about_wrapper{
+    padding: 80px 0;
+}
+
+.about_inner h3,
+.faq .faq_inner .left h3 {
+    font-family: 'Poppins';
+    color: #ffb606;
+}
+
+.about_inner h2,
+.faq .faq_inner .left h2 {
+    font-family: 'Poppins';
+    color: #000;
+}
+
+.about_inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+
+.about_inner .left {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_inner  .right,
+.faq .faq_inner .left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: flex-start;
+}
+
+.about_inner  .right a{
+    background: #ffb606;
+    color: #fff;
+    padding: 10px 25px;
+    font-family: 'Poppins';
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.about_inner .right p{
+    margin-top: 5px;
+}
+
+.about_inner .right a:hover {
+    color: #fff !important;
+}
+
+.faq{
+    padding: 80px 0;
+    background: #f0f0f06b;
+}
+
+.faq .faq_inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+
+.faq .faq_inner .panel-heading {
+    padding: 15px 22px;
+    background: #ffb606;
+}
+
+.faq .faq_inner h4.panel-title {
+    font-family: 'Poppins';
+}
+
+.faq .faq_inner h4.panel-title a{
+    color: #fff;
+}
+
+.faq .faq_inner .panel-body {
+    padding: 15px 23px;
+}
+
+@media (max-width: 414px){
+
+    .about_inner {
+        grid-template-columns: 1fr;
+        column-gap: 40px;
+    }
+
+    .about_inner .left {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .about_wrapper {
+        padding: 15px 0 30px;
+    }
+
+    .faq .faq_inner {
+        grid-template-columns: 1fr;
+    }
+
+    .faq_inner .right{
+        margin-top: 30px;
+    }
+
+    .faq {
+        padding: 30px 0;
+    }
+
+}

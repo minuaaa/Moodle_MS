@@ -1,0 +1,1 @@
+a:5:{s:10:"pluginname";s:18:"LMSACE Connect SSO";s:23:"auth_lmsace_connectdesc";s:32:"SSO between wordpress and moodle";s:19:"auth_lmsace_connect";s:23:"LMSACE Connect settings";s:9:"logouturl";s:19:"Logout redirect URL";s:21:"logouturl_description";s:64:"Enter the site URL to redirect to your connected wordpress site.";}

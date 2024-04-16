@@ -1,0 +1,3 @@
+a:5:{s:13:"fallbackaudio";s:13:"Garso nuoroda";s:13:"fallbackvideo";s:14:"Vaizdo nuoroda";s:10:"filtername";s:24:"Multimedijos papildiniai";s:11:"linktomedia";s:364:"Daugialypės terpės įskiepių filtras tekste suranda nuorodą, nukreipiančią į daugialypės terpės šaltinį, ir pakeičia nuorodą atitinkamu daugialypės terpės grotuvo kodu, kuris gali atkurti šaltinį. Jis taip pat pakeičia &lt;video&gt; ir &lt;audio&gt; žymas su pasirinktais vaizdo ir garso grotuvais.
+
+<a href="{$a}">Tvarkyti medijos leistuvus</a>";s:16:"privacy:metadata";s:71:"Multimedijos papildinių papildinys nesaugo jokių asmeninių duomenų.";}

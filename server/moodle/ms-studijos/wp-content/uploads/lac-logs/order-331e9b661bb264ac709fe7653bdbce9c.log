@@ -1,0 +1,32 @@
+03-05-2024 @ 09:39:15 -: Order completed, LACONN create user enrolment init - OrderID: 36 
+ 03-05-2024 @ 09:39:15 -: Creating moodle user... 
+ 03-05-2024 @ 09:39:15 -: Preparing enrolment - "30" ([{"roleid":"5","userid":6,"courseid":10}]) 
+ 03-05-2024 @ 09:39:15 -: Preparing enrolment - "22" ([{"roleid":"5","userid":6,"courseid":6}]) 
+ 03-05-2024 @ 09:39:15 -: Preparing enrolment - "20" ([{"roleid":"5","userid":6,"courseid":5}]) 
+ 03-05-2024 @ 09:39:16 -: Updated enrolments in order meta - [{"roleid":"5","userid":6,"courseid":5}] 
+ 03-06-2024 @ 10:45:58 -: Order completed, LACONN create user enrolment init - OrderID: 56 
+ 03-06-2024 @ 10:45:58 -: Creating moodle user... 
+ 03-06-2024 @ 10:45:58 -: Preparing enrolment - "28" ([{"roleid":"5","userid":14,"courseid":9}]) 
+ 03-06-2024 @ 10:45:58 -: Preparing enrolment - "22" ([{"roleid":"5","userid":14,"courseid":6}]) 
+ 03-06-2024 @ 10:45:58 -: Updated enrolments in order meta - [{"roleid":"5","userid":14,"courseid":6}] 
+ 03-08-2024 @ 07:57:13 -: Order completed, LACONN create user enrolment init - OrderID: 1517 
+ 03-08-2024 @ 07:57:13 -: Creating moodle user... 
+ 03-08-2024 @ 07:57:13 -: Preparing enrolment - "1478" ([{"roleid":"5","userid":14,"courseid":6}]) 
+ 03-08-2024 @ 07:57:13 -: Updated enrolments in order meta - [{"roleid":"5","userid":14,"courseid":6}] 
+ 03-08-2024 @ 08:00:40 -: Order completed, LACONN create user enrolment init - OrderID: 1518 
+ 03-08-2024 @ 08:00:40 -: Creating moodle user... 
+ 03-08-2024 @ 08:00:40 -: Preparing enrolment - "1482" ([{"roleid":"5","userid":14,"courseid":8}]) 
+ 03-08-2024 @ 08:00:40 -: Updated enrolments in order meta - [{"roleid":"5","userid":14,"courseid":8}] 
+ 04-01-2024 @ 10:40:58 -: Order completed, LACONN create user enrolment init - OrderID: 1536 
+ 04-01-2024 @ 10:40:58 -: Creating moodle user... 
+ 04-01-2024 @ 10:40:58 -: Preparing enrolment - "1484" ([{"roleid":"5","userid":17,"courseid":9}]) 
+ 04-01-2024 @ 10:40:58 -: Updated enrolments in order meta - [{"roleid":"5","userid":17,"courseid":9}] 
+ 04-01-2024 @ 11:00:00 -: Order completed, LACONN create user enrolment init - OrderID: 1539 
+ 04-01-2024 @ 11:00:00 -: Creating moodle user... 
+ 04-01-2024 @ 11:00:01 -: Preparing enrolment - "1486" ([{"roleid":"5","userid":18,"courseid":10}]) 
+ 04-01-2024 @ 11:00:01 -: Updated enrolments in order meta - [{"roleid":"5","userid":18,"courseid":10}] 
+ 04-01-2024 @ 11:14:29 -: Order completed, LACONN create user enrolment init - OrderID: 1540 
+ 04-01-2024 @ 11:14:29 -: Creating moodle user... 
+ 04-01-2024 @ 11:14:29 -: Preparing enrolment - "1482" ([{"roleid":"5","userid":2,"courseid":8}]) 
+ 04-01-2024 @ 11:14:30 -: Updated enrolments in order meta - [{"roleid":"5","userid":2,"courseid":8}] 
+ 

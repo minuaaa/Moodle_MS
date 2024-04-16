@@ -1,0 +1,9 @@
+a:12:{s:10:"filtername";s:7:"MathJax";s:20:"additionaldelimiters";s:29:"Papildomi lygčių skyrikliai";s:25:"additionaldelimiters_help";s:266:"„MathJax“ filtras analizuoja lygčių tekstą, esantį skyriklio simboliuose.
+
+Čia galima pridėti atpažintų skiriamųjų simbolių sąrašą (pvz., AsciiMath naudoja `). Skirstytuvuose gali būti keli simboliai, o kelis skyriklius galima atskirti kableliais.";s:8:"httpsurl";s:11:"MathJax URL";s:13:"httpsurl_help";s:33:"Visas URL į MathJax biblioteką.";s:22:"texfiltercompatibility";s:27:"Suderinamumas su TeX filtru";s:27:"texfiltercompatibility_help";s:239:"MathJax filtras gali būti naudojamas kaip TeX žymėjimo filtro pakaitalas.
+
+Kad būtų palaikomi visi skyrikliai, kuriuos palaiko TeX žymėjimo filtras, MathJax bus sukonfigūruotas taip, kad visos lygtys būtų rodomos kartu su tekstu.";s:12:"localinstall";s:25:"Vietinis MathJax diegimas";s:17:"localinstall_help";s:508:"Numatytoji MathJax konfigūracija naudoja MathJax CDN versiją, tačiau jei reikia, MathJax galima įdiegti vietoje.
+
+Tai gali būti naudinga taupant pralaidumą arba dėl vietinių tarpinio serverio apribojimų.
+
+Norėdami naudoti vietinį MathJax diegimą, pirmiausia atsisiųskite visą MathJax biblioteką iš https://www.mathjax.org/. Tada įdiekite jį žiniatinklio serveryje. Galiausiai atnaujinkite MathJax filtro nustatymus httpurl ir (arba) httpsurl, kad nukreiptumėte į vietinį MathJax.js URL.";s:15:"mathjaxsettings";s:22:"MathJax konfigūracija";s:20:"mathjaxsettings_desc";s:209:"Numatytoji MathJax konfigūracija turėtų būti tinkama daugumai naudotojų, tačiau MathJax yra labai konfigūruojama ir čia galima pridėti bet kurią iš standartinių MathJax konfigūracijos parinkčių.";s:16:"privacy:metadata";s:60:"„MathJax“ papildinys nesaugo jokių asmeninių duomenų.";}

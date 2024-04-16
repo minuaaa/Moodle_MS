@@ -1,0 +1,19 @@
+a:26:{s:8:"encoding";s:15:"Failo kodavimas";s:13:"expiredaction";s:41:"Registracijos galiojimo pabaigos veiksmas";s:18:"expiredaction_help";s:206:"Pasirinkite veiksmą, kurį norite atlikti, kai baigiasi naudotojo registracijos galiojimo laikas. Atminkite, kad kai kurie naudotojo duomenys ir nustatymai pašalinami iš kurso išregistruojant iš kurso.";s:14:"filelockedmail";s:298:"Tekstinio failo, kurį naudojate failu pagrįstoms registracijoms ({$a}), negalima panaikinti „Cron“ procesu. Paprastai tai reiškia, kad šiam veiksmui atlikti netinkamos teisės. Pakoreguokite teises, kad „Moodle“ galėtų panaikinti failą, antraip jis gali būti pakartotinai apdorotas.";s:21:"filelockedmailsubject";s:35:"Svarbi klaida: registracijos failas";s:15:"flatfile:manage";s:48:"Tvarkyti naudotojų registraciją rankiniu būdu";s:16:"flatfile:unenrol";s:46:"Pašalinti naudotojus iš kurso rankiniu būdu";s:18:"flatfileenrolments";s:17:"CSV registracijos";s:12:"flatfilesync";s:34:"CSV registracijos sinchronizavimas";s:8:"location";s:11:"Failo vieta";s:13:"location_desc";s:92:"Nurodykite visą registracijos failo kelią. Failas automatiškai ištrinamas po apdorojimo.";s:11:"notifyadmin";s:26:"Pranešti administratoriui";s:14:"notifyenrolled";s:38:"Pranešti įregistruotiems naudotojams";s:14:"notifyenroller";s:50:"Pranešti naudotojui, atsakingam už registraciją";s:34:"messageprovider:flatfile_enrolment";s:29:"CSV registracijos pranešimai";s:7:"mapping";s:29:"Standartinio failo susiejimas";s:10:"pluginname";s:8:"Puslapis";s:15:"pluginname_desc";s:878:"Šiuo metodu bus pakartotinai tikrinamas ir apdorojamas specialiai formatuotas tekstinis failas jūsų nurodytoje vietoje. Laikoma, kad atskirtas kableliu failas vienoje eilutėje turi keturis ar šešis laukus:
+<pre class="informationbox">
+
+* operation, role, idnumber(user), idnumber(course) [, starttime, endtime] where:
+* operation = add | del
+* role = student | teacher | teacheredit
+* idnumber(user) = idnumber in the user table NB not id
+* idnumber(course) = idnumber in the course table NB not id
+* starttime = start time (in seconds since epoch) - optional
+* endtime = end time (in seconds since epoch) - optional </pre>
+
+Pateikimas turėtų būti panašus į šį: <pre class="informationbox">
+add, student, 5, CF101
+add, teacher, 6, CF101
+add, teacheredit, 7, CF101
+del, student, 8, CF101
+del, student, 17, CF101
+add, student, 21, CF101, 1091115000, 1091215000
+</pre>";s:31:"privacy:metadata:enrol_flatfile";s:149:"„Flat file“ (CSV) registracijos papildinys gali saugoti asmeninius duomenis, susijusius su būsimomis registracijomis, lentelėje enrol_flatfile.";s:38:"privacy:metadata:enrol_flatfile:action";s:46:"Nurodyta data numatomas registracijos veiksmas";s:40:"privacy:metadata:enrol_flatfile:courseid";s:41:"Kurso ID, su kuriuo susijusi registracija";s:38:"privacy:metadata:enrol_flatfile:roleid";s:53:"Vaidmens, kurį reikia priskirti arba nepriskirti, ID";s:41:"privacy:metadata:enrol_flatfile:timestart";s:35:"Laikas, kada prasideda registracija";s:39:"privacy:metadata:enrol_flatfile:timeend";s:34:"Laikas, kada baigiasi registracija";s:44:"privacy:metadata:enrol_flatfile:timemodified";s:34:"Laikas, kai keičiama registracija";s:38:"privacy:metadata:enrol_flatfile:userid";s:54:"Naudotojo, su kuriuo susijęs vaidmens priskyrimas, ID";}

@@ -1,0 +1,47 @@
+a:51:{s:13:"accountexists";s:226:"Šioje svetainėje jau yra naudotojas su šiuo naudotojo vardu. Jei tai jūsų paskyra, prisijunkite įvesdami savo naudotojo vardą ir slaptažodį ir pridėkite jį kaip susietą prisijungimo vardą savo nuostatų puslapyje.";s:22:"auth_oauth2description";s:28:"Laikas, kai įvyko veiksmas.";s:19:"auth_oauth2settings";s:35:"OAuth 2 autentifikavimo nustatymai.";s:19:"confirmaccountemail";s:470:"Sveiki, {$a->fullname},
+
+Gautas paskyros prašymas „{$a->sitename}“
+naudodojantis Jūsų el. pašto adresu.
+
+Norėdami patvirtinti naują paskyrą, eikite į šiuo adresu:
+
+{$a->link}
+
+Daugelyje pašto programų tai turėtų būti mėlyna nuoroda,
+kurią galite tiesiog spustelėti. Jei tai neveikia,
+tada nukopijuokite adresą į adreso eilutę
+interneto naršyklės lango viršuje.
+
+Jei jums reikia pagalbos, susisiekite su svetainės administratoriumi
+{$a->admin}";s:26:"confirmaccountemailsubject";s:28:"{$a}: paskyros patvirtinimas";s:19:"confirmationinvalid";s:152:"Patvirtinimo nuoroda yra netinkama arba pasibaigė. Prašome vėl pradėti prisijungimo procesą, kad sugeneruotumėte naują patvirtinimo el. laišką.";s:19:"confirmationpending";s:48:"Laukiama šios paskyros patvirtinimo el. paštu.";s:23:"confirmlinkedloginemail";s:757:"Sveiki, {$a->fullname},
+
+Buvo pateikta užklausa susieti {$a->issuername} prisijungimo duomenis
+{$a->linkedemail} su jūsų paskyrą adresu „{$a->sitename}“
+naudojant jūsų el. pašto adresą.
+
+Norėdami patvirtinti šią užklausą ir susieti šiuos prisijungimus, eikite šiuo interneto adresu:
+
+{$a->link}
+
+
+Daugumoje pašto programų tai turėtų būti rodoma kaip mėlyna nuoroda,
+kurią galite tiesiog spustelėti. Jei tai neveikia,
+tada iškirpkite ir įklijuokite adresą į adreso
+eilutę interneto naršyklės lango viršuje.
+
+Jei reikia pagalbos, susisiekite su svetainės administratoriumi,
+{$a->admin}
+
+Jei neteikėte užklausos, kažkas kitas gali bandyti pažeisti jūsų paskyrą.
+Nedelsdami susisiekite su svetainės administratoriumi.";s:30:"confirmlinkedloginemailsubject";s:40:"{$a}: susieto prisijungimo patvirtinimas";s:21:"createaccountswarning";s:190:"Šis autentifikavimo papildinys leidžia naudotojams kurti paskyras jūsų svetainėje. Jei naudojate šį papildinį, galbūt norėsite įjungti nustatymą „authpreventaccountcreation“.";s:20:"createnewlinkedlogin";s:30:"Susieti naują paskyrą ({$a})";s:16:"emailconfirmlink";s:21:"Susieti savo paskyras";s:20:"emailconfirmlinksent";s:366:"<p>Su šiuo el. pašto adresu rasta esama paskyra, bet ji dar nesusieta.</p>
+    <p>Prieš prisijungiant, paskyros turi būti susietos.</p>
+    <p>Jūsų adresu <b>{$a}</b> turėjo būti išsiųstas el. laiškas.</p>
+    <p>Jame pateikiamos paprastos instrukcijos, kaip susieti paskyras.</p>
+    <p>Jei kyla sunkumų, susisiekite su svetainės administratoriumi.</p>";s:23:"emailpasswordchangeinfo";s:344:"Sveiki, {$a->firstname},
+
+Kažkas (tikriausiai jūs) paprašė naujo jūsų paskyros slaptažodžio svetainėje „{$a->sitename}“.
+
+Tačiau slaptažodžio iš naujo nustatyti negalima, nes prisijungdami kitoje svetainėje naudojate savo paskyrą.
+
+Prisijunkite kaip anksčiau, naudodami prisijungimo puslapyje esančią nuorodą.
+{$a->admin}";s:30:"emailpasswordchangeinfosubject";s:40:"{$a}: slaptažodžio keitimo informacija";s:4:"info";s:17:"Išorinė paskyra";s:6:"issuer";s:22:"Paslauga „OAuth 2“";s:13:"issuernologin";s:54:"Šis išdavėjas negali būti naudojamas prisijungimui";s:3:"key";s:6:"Raktas";s:12:"linkedlogins";s:21:"Susieti prisijungimai";s:16:"linkedloginshelp";s:35:"Pagalba su susietais prisijungimais";s:8:"loggedin";s:50:"Naudotojas sėkmingai autentifikuotas su teikėju.";s:25:"loginerror_userincomplete";s:142:"Pateiktoje naudotojo informacijoje nebuvo naudotojo vardo ir el. pašto adreso. „OAuth 2“ paslauga gali būti sukonfigūruota neteisingai.";s:21:"loginerror_nouserinfo";s:109:"Jokia naudotojo informacija nebuvo grąžinta. „OAuth 2“ paslauga gali būti sukonfigūruota neteisingai.";s:24:"loginerror_invaliddomain";s:52:"El. pašto adresas šioje svetainėje neleidžiamas.";s:31:"loginerror_authenticationfailed";s:34:"Autentifikavimo procesas nepavyko.";s:31:"loginerror_cannotcreateaccounts";s:52:"Nepavyko rasti paskyros su jūsų el. pašto adresu.";s:16:"noconfiguredidps";s:40:"Nėra sukonfigūruotų OAuth2 teikėjų.";s:18:"noissuersavailable";s:96:"Nė viena iš sukonfigūruotų „OAuth 2“ paslaugų neleidžia susieti prisijungimo paskyrų.";s:16:"notloggedindebug";s:48:"Bandymas prisijungti nepavyko. Priežastis: {$a}";s:18:"notwhileloggedinas";s:85:"Susietų prisijungimų negalima valdyti, kai esate prisijungę kaip kitas naudotojas.";s:25:"oauth2:managelinkedlogins";s:44:"Tvarkyti savo susietas prisijungimo paskyras";s:10:"notenabled";s:60:"Atsiprašome, OAuth 2 autentifikavimo papildinys neįjungtas";s:17:"plugindescription";s:219:"Šis autentifikavimo papildinys prisijungimo puslapyje rodo sukonfigūruotų tapatybės teikėjų sąrašą. Pasirinkę tapatybės teikėją, naudotojai gali prisijungti naudodami savo kredencialus iš OAuth 2 teikėjo.";s:10:"pluginname";s:7:"OAuth 2";s:13:"alreadylinked";s:63:"Ši išorinė paskyra jau susieta su paskyra šioje svetainėje";s:28:"privacy:metadata:auth_oauth2";s:24:"OAuth 2 autentifikavimas";s:42:"privacy:metadata:auth_oauth2:authsubsystem";s:63:"Šis papildinys yra prijungtas prie autentifikavimo posistemio.";s:41:"privacy:metadata:auth_oauth2:confirmtoken";s:29:"Patvirtinimo prieigos raktas.";s:48:"privacy:metadata:auth_oauth2:confirmtokenexpires";s:71:"Laiko žyma, kai baigiasi patvirtinimo prieigos rakto galiojimo laikas.";s:34:"privacy:metadata:auth_oauth2:email";s:55:"Išorinis el. pašto adresas, susietas su šia paskyra.";s:37:"privacy:metadata:auth_oauth2:issuerid";s:49:"OAuth 2 išdavėjo ID šiam OAuth 2 prisijungimui";s:45:"privacy:metadata:auth_oauth2:tableexplanation";s:67:"„OAuth 2“ paskyros, susietos su naudotojo „Moodle“ paskyra.";s:40:"privacy:metadata:auth_oauth2:timecreated";s:72:"Laiko žyma, kai naudotojo paskyra buvo susieta su OAuth 2 prisijungimu.";s:41:"privacy:metadata:auth_oauth2:timemodified";s:49:"Laiko žyma, kai šis įrašas buvo modifikuotas.";s:35:"privacy:metadata:auth_oauth2:userid";s:64:"Naudotojo paskyros, su kuria susietas OAuth 2 prisijungimas, ID.";s:41:"privacy:metadata:auth_oauth2:usermodified";s:41:"Naudotojo, pakeitusio šią paskyrą, ID.";s:37:"privacy:metadata:auth_oauth2:username";s:53:"Išorinis naudotojo vardas, susietas su šia paskyra.";s:12:"testidplogin";s:28:"Išbandyti prisijungimą su:";s:8:"userinfo";s:32:"Naudotojo duomenys iš teikėjo:";s:5:"value";s:6:"Vertė";}

@@ -1,0 +1,7 @@
+a:4:{s:18:"allowedsourceslist";s:21:"Leidžiami šaltiniai";s:22:"allowedsourceslistdesc";s:381:"URL, iš kurių naudotojai gali įterpti H5P turinį, sąrašas. Jei nė vienas nenurodytas, visi URL liks kaip nuorodos ir nebus rodomi kaip įterptas H5P turinys.
+
+„[id]“ yra H5P turinio ID rezervuota vieta išoriniame šaltinyje.
+Pavyzdžiui:
+
+– H5P.com: https://[xxxxxx].h5p.com/content/[id]
+– Wordpress: http://myserver/wp-admin/admin-ajax.php?action=h5p_embed&id=[id]";s:10:"filtername";s:10:"Rodyti H5P";s:16:"privacy:metadata";s:50:"Ekrano H5P filtras nesaugo jokių asmens duomenų.";}

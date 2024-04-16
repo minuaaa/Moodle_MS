@@ -1,0 +1,28 @@
+
+---Downloaded files---
+The import files for: Education Shop Free were successfully downloaded!
+Initial max execution time = 600
+Files info:
+Site URL = http://localhost/ms-studijos.lt
+Data file = C:\Moodle_MS\server\moodle\ms-studijos.lt\wp-content\plugins\cyclone-demo-importer//themes/education-shop/inc/content.xml
+Widget file = not defined!
+Customizer file = C:\Moodle_MS\server\moodle\ms-studijos.lt\wp-content\plugins\cyclone-demo-importer//themes/education-shop/inc/options.dat
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

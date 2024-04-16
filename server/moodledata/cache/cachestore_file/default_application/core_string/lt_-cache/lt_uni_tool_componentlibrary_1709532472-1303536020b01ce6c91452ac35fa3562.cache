@@ -1,0 +1,9 @@
+a:13:{s:6:"copied";s:12:"Nukopijuota!";s:4:"copy";s:9:"Kopijuoti";s:15:"copytoclipboard";s:26:"Nukopijuoti į iškarpinę";s:9:"installer";s:736:"<h3>Komponentų bibliotekos sąranka</h3>
+     <p>Kad galėtumėte matyti komponentų bibliotekos turinį, turėsite turėti karkaso prieigą prie savo Moodle diegimo ir turėti galimybę rašyti į aplanką /admin/tool/componentlibrary ir turėti npm įdiegtą savo Moodle serveryje.</p>
+     <p>Jei atitinkate šiuos reikalavimus, galite pereiti į savo Moodle šakninį aplanką ir paleisti:</p>
+     <pre>$ npm diegimas</pre>
+     <pre>$ npm įdiegti grunt</pre>
+     <p>Tai paims visus reikalingus paketus komponentų bibliotekos dokumentams kurti.</p>
+     <p>Kai jie bus įdiegti, galėsite paleisti:</p>
+     <pre>$ grunt componentlibrary</pre>
+     <p>Jei reikia daugiau informacijos, žr. šio papildinio failą README.md.</p>";s:10:"pluginname";s:25:"UI komponentų biblioteka";s:16:"privacy:metadata";s:70:"Komponentų bibliotekos papildinys nesaugo jokių asmeninių duomenų.";s:8:"runjsdoc";s:133:"„JavaScript“ dokumentacija generuojama atskirai komponentų bibliotekai. Norėdami ją sugeneruoti, paleiskite „grunt jsdoc“.";s:8:"showboth";s:15:"Rodyti su abiem";s:11:"showdefault";s:20:"Rodyti numatytuosius";s:8:"showhelp";s:17:"Rodyti su pagalba";s:9:"showmixed";s:14:"Rodyti mišrų";s:12:"showrequired";s:17:"Rodyti su būtina";s:14:"toggleviewinfo";s:45:"Perjungti šios formos egzemplioriaus rodinį";}
