@@ -2784,3 +2784,18 @@ function bizberg_single_post_layout_body_class( $classes ){
 	return $classes;
 
 }
+//Suskaiciuoja kiek siuo metu yra parduodamu kursu
+function get_total_woocommerce_products() {
+    $args = array(
+        'post_type'   => 'product',
+        'post_status' => 'publish',
+        'posts_per_page' => -1,
+    );
+    $query = new WP_Query($args);
+    return $query->found_posts;
+}	
+function woocommerce_product_count_shortcode() {
+    $total_products = get_total_woocommerce_products();
+    return '<p>Šiuo metu jums galime pasiūlyti ' . $total_products . ' kursų.</p>';
+}
+add_shortcode('product_count', 'woocommerce_product_count_shortcode');
